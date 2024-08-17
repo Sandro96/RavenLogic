@@ -1,6 +1,6 @@
-import { IoSunny, IoLanguage } from "react-icons/io5";
-import iconRaven from "../../assets/img/icon-raven-nav.png";
-import { Link } from "react-router-dom";
+import { IoSunny, IoLanguage } from 'react-icons/io5';
+import iconRaven from '../../assets/img/icon-raven-nav.png';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -14,10 +14,10 @@ function Navbar() {
           />
         </Link>
         <div className="flex items-center text-xs gap-16">
-          <Link to='servicios'>SERVICIO</Link>
+          <Link to='services'>SERVICIOS</Link>
           <Link to='portfolio'>PORTFOLIO</Link>
-          <Link to='nosotros'>NOSOTROS</Link>
-          <Link to='contacto'>CONTACTO</Link>
+          <Link to='us'>NOSOTROS</Link>
+          <Link to='contact'>CONTACTO</Link>
           <div className="flex gap-8">
             <a>
               <IoSunny className="w-[30px] h-[30px]" />
