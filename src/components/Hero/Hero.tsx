@@ -1,5 +1,5 @@
-import "./Hero.css";
-import gears from "../../assets/img/gears.png";
+import './Hero.css';
+import gears from '../../assets/img/gears.png';
 
 function Hero() {
   return (
