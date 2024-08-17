@@ -3,11 +3,16 @@
 @tailwind utilities;
 
 body {
+  @apply bg-bg-color font-noto-sans;
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-color: var(--bg-color);
-  @apply font-noto-sans;
+  color: #fff;
+  letter-spacing: 0.4px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -47,24 +52,22 @@ a {
 }
 
 a:hover {
-  color: var(--primary-color-light);
+  @apply text-primary-color-light;
 }
 
 button {
+  @apply bg-secondary-color border-2 border-secondary-color-light;
   border-radius: 100px;
   padding: 0.6em 1.2em;
   font-weight: 600;
-  cursor: pointer;
-  background-color: var(--secondary-color);
+  cursor: pointer; 
   color: #000;
-  border: 2px solid var(--secondary-color-light);
   font-size: 1rem;
   transition: all 0.25s ease;
 }
 
 button:hover {
-  background-color: var(--primary-color-light);
-  border-color: var(--primary-color);
+  @apply bg-primary-color-light border-primary-color;
   color: #000;
 }
 

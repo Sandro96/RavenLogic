@@ -15,16 +15,18 @@ export default {
       },
       colors: {
         'primary-color': '#1C3EDD',
-        'primary-color-v': '#1B254D',
-        'bg-color': '#202020',
-        'bg-color-v': '#0A0A0A',
+        'primary-color-light': '#1C9FDD',
+        'bg-color': '#121c38',
         'secondary-color': '#FFC948',
-        'secondary-color-v': '#FFF859',
+        'secondary-color-light': '#FFF859',
       },
       fontFamily: {
         'dm-sans': ['"DM Sans"', 'sans-serif'],
         'noto-sans': ['"Noto Sans"', 'sans-serif'],
-      }
+      },
+      boxShadow: {
+        'custom': '0 0 3px #000',
+      },
     },
   },
   plugins: [],
