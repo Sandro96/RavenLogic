@@ -51,10 +51,6 @@ a {
   cursor: pointer;
 }
 
-a:hover {
-  @apply text-primary-color-light;
-}
-
 button {
   @apply bg-secondary-color border-2 border-secondary-color-light;
   border-radius: 100px;
