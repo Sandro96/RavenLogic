@@ -34,9 +34,9 @@ function Navbar() {
       <div className="flex justify-between items-center container">
         <Link
           to="/"
-          className="hover-box relative flex items-center text-xs gap-2 border border-gray-700 rounded-full bg-white bg-opacity-5 backdrop-blur-lg shadow-custom transition-all duration-300 ease-in-out py-1 px-3"
+          className="hover-box relative flex items-center text-xs gap-2 border border-gray-700 rounded-full bg-white bg-opacity-5 backdrop-blur-lg shadow-custom transition-all duration-300 ease-in-out py-[9px] px-3"
         >
-          <img className="w-[40px] h-[40px]" src={iconRaven} alt="iconRaven" />
+          <img className="w-[30px] h-[30px]" src={iconRaven} alt="iconRaven" />
           RAVEN LOGIC
         </Link>
 

@@ -18,7 +18,7 @@ function Hero() {
           <button className="self-start">Solicita tu página</button>
         </div>
         <img
-          className="w-[450px] h-[682px]"
+          className="w-[370px] h-[530px]"
           src={gears}
           alt="gears"
         />
